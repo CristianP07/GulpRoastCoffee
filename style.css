@@ -1,0 +1,185 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/124Wli0Rxp4GhOrrOijzznbnOfNC9kP8wOVZnPZsR2DE/edit?usp=sharing */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;  
+    background-color: #F2F2F2;   
+}
+
+#socialMedia {
+    background-color: #F2F2F2;
+    height: 50px
+}
+
+#socialMedia a {
+    color: black;
+
+}
+
+a .social_media {
+    background-color: #F2F2F2;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    object-position: center;
+}
+
+
+.logo {
+    background-color: #131D26;
+    background-image: url("gulp-logo-light.webp");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.navButtons {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: inline-block;
+    max-width: 5%;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.left {
+    width: 100%;
+}
+
+.right {
+    width: 100%;
+    
+}
+
+
+.farleft {
+    width: 100%;
+}
+
+#container {
+    height: 446px;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    background-color: #D98555;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.gulp-pouring-coffee-vertical {
+    background-color: #D98555;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("https://assets.codepen.io/6306176/gulp-menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 446px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0%;
+    padding: 0%;
+}
+
+
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+p a {
+    text-decoration: underline;
+    color: black;
+}
+
+#container2 {
+    display: flex;
+    height: 335px;
+    background-color: #131D26;
+}
+
+.gulp-coffee-beans {
+    background-image: url("https://assets.codepen.io/6306176/gulp-coffee-beans.jpg");
+    background-repeat: no-repeat;
+    float: right;
+    height: 335px;
+    width: 500px;
+    object-fit: contain;
+}
+
+#ourCoffee {
+    color: #F2F2F2;
+    font-size: 28px;
+    width: 1164px;
+    text-align: center;
+}
+
+#browseContainer {
+    background-color: #F2F2F2;
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.contactUs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #D98555;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    color: #F2F2F2;
+    border: black;
+    border-radius: 10px;
+}
+
+.pour-over {
+    background-image: url("https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 335px;
+    width: 500px;
+}
+
+#pourOver {
+    color: #F2F2F2;
+    background-color: #D98555;
+    height: 335px;
+    
+}
+
+#pour {
+    font-style: normal;
+    font-weight: 400;
+    height: 335px;
+    width: 1164;
+    text-align: center;
+    padding-top: 60px; 
+}
+
+section {
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    
+}
+
+html {
+    background-color: #F2F2F2;
+}
